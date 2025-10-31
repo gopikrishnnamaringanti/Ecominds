@@ -10,7 +10,7 @@ const Riddle = () => {
         try {
           const response = await axios.get('https://api.api-ninjas.com/v1/riddles', {
             headers: {
-              'X-Api-Key': 'y7YbUwGXIe2Z7TOR0sYJug==iN2XEUr4RIZebhaK',
+              'X-Api-Key': '',
               'Content-Type': 'application/json',
             },
           });
