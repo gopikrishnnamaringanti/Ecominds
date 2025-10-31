@@ -32,7 +32,7 @@ function Quote() {
       const randomCategory = getRandomCategory();
       const response = await axios.get('https://api.api-ninjas.com/v1/quotes', {
         params: { category: randomCategory },
-        headers: { 'X-Api-Key': 'y7YbUwGXIe2Z7TOR0sYJug==iN2XEUr4RIZebhaK' }, // Replace with your API key
+        headers: { 'X-Api-Key': '' }, // Replace with your API key
       });
       setQuote(response.data[0].quote);
     } catch (error) {
